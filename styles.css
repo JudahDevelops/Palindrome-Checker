@@ -45,8 +45,6 @@ button {
     background-color: white;
     cursor: pointer;
     transition: all 0.5s;
-    margin-bottom: 40px;
-
 }
 
 button:hover {
@@ -54,4 +52,13 @@ button:hover {
     border-color: white;
     color: white;
     box-shadow: 0px 0px 9px black;
+}
+
+#results {
+    margin: 40px auto 12px;
+    display: none;
+}
+
+#reset {
+    display: none;
 }
